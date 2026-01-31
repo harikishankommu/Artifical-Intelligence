@@ -1,2 +1,3 @@
-﻿# Artifical-Intelligences
+﻿# Artifical-Intelligence
+
 
