@@ -1,0 +1,24 @@
+% Comments
+% Menu Optimization Stress
+C TC 5
+C DF 1
+C PM 1
+C GJ 1
+
+G 3
+
+I 1 2 3 -1
+
+O 14 -1
+
+A 1 1 2 4 TC
+A 2 2 3 5 TC
+A 3 3 1 6 TC
+A 4 4 5 7 DF
+A 5 5 6 8 PM
+A 6 6 4 9 GJ
+A 7 7 8 10 DF
+A 8 8 9 11 PM
+A 9 9 7 12 GJ
+A 10 10 11 13 TC
+A 11 13 12 14 DF

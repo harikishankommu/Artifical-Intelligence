@@ -1,0 +1,23 @@
+% Comments
+% Parallel Merge
+C TC 2
+C DF 2
+C PM 3
+C GJ 1
+
+G 3
+
+I 1 2 3 -1
+
+O 13 -1
+
+A 1 1 2 4 TC
+A 2 2 3 5 DF
+A 3 3 1 6 PM
+A 4 4 2 7 TC
+A 5 5 3 8 DF
+A 6 6 1 9 PM
+A 7 7 8 10 GJ
+A 8 8 9 11 GJ
+A 9 10 11 12 TC
+A 10 12 2 13 DF
