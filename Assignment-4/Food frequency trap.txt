@@ -1,0 +1,23 @@
+% Comments
+% Frequency Trap
+C TC 3
+C DF 2
+C PM 1
+C GJ 4
+
+G 3
+
+I 1 2 -1
+
+O 12 -1
+
+A 1 1 2 3 TC
+A 2 1 2 4 TC
+A 3 1 2 5 TC
+A 4 3 4 6 PM
+A 5 4 5 7 PM
+A 6 6 7 8 DF
+A 7 8 2 9 DF
+A 8 9 2 10 GJ
+A 9 10 1 11 GJ
+A 10 11 2 12 GJ
